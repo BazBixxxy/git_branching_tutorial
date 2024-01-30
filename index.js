@@ -1,4 +1,4 @@
 let string = "string";
 const stringArray = string.split("");
-stringArray.forEach((value) => console.log(value));
-console.log('version 3')
+stringArray.forEach((value, index) => console.log(value, index));
+console.log("version 4");
